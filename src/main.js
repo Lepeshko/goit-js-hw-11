@@ -4,7 +4,7 @@ import { displayImages, displayToast } from './js/render-functions.js';
 
 const searchForm = document.querySelector('form');
 const gallery = document.querySelector('.gallery');
-const loader = document.querySelector('.spinner');
+const loader = document.querySelector('.loader');
 
 searchForm.addEventListener('submit', async event => {
   event.preventDefault();

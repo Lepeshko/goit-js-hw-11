@@ -1,7 +1,7 @@
 'use strict';
 export async function fetchImages(searchData) {
   const searchParams = new URLSearchParams({
-    key: '43838744-76530a55bebff011fa4d493be',
+    key: '44048092-3090edf6b3c3e0216bf005362',
     q: searchData,
     image_type: 'photo',
     orientation: 'horizontal',

@@ -217,6 +217,7 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1; /* Щоб лоудер був поверх зображення */
+
   /* Додайте стилі вашого лоудера згідно з попереднім прикладом */
   width: 48px;
   height: 48px;
@@ -226,6 +227,10 @@ p {
   display: inline-block;
   box-sizing: border-box;
   animation: rotation 1s linear infinite;
+}
+
+.loader.is-hidden {
+  opacity: 0;
 }
 
 @keyframes rotation {
